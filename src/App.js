@@ -1,7 +1,7 @@
 import React from 'react'
 import {useSelector, useDispatch} from 'react-redux'
 import './styles.css'
-import {increment, decrement, reset, incrementByAmount} from './App/counter'
+import {increment, decrement, reset, incrementByAmount} from './Store/counter'
 
 export default function App() {
   // select current state
